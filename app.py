@@ -71,7 +71,7 @@ def predict_depth(image):
 
 # --- App Structure ---
 with gr.Blocks(css=css, title="Semester Project") as demo:
-    with gr.Div(elem_id="container"):
+    with gr.Column(elem_id="container"):
         # Header
         gr.Markdown(
             """
@@ -114,7 +114,7 @@ with gr.Blocks(css=css, title="Semester Project") as demo:
             <div class="footer">
                 <p>Project Supervisor: <b>Engr. Faheem Ul Rehman Siddiqi</b></p>
                 <p>Developed by: <span class="group-members">Ahamed Najah</span> & <span class="group-members">Abdul Rahman Al tahir</span></p>
-                <p>© 2024 Depth Vision AI | Semester Project Submission</p>
+                <p>© 2026 Depth Vision AI | Semester Project Submission</p>
             </div>
             """
         )
