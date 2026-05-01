@@ -94,5 +94,5 @@ with gr.Blocks(css=css) as demo:
     submit.click(on_submit, inputs=[input_image], outputs=[depth_image_output, gray_depth_file, raw_file])
 
 if __name__ == '__main__':
-    # Use share=False for maximum local stability
-    demo.queue().launch(share=False, server_name="127.0.0.1")
+    # server_name="0.0.0.0" is required for Hugging Face Spaces to work
+    demo.queue().launch(server_name="0.0.0.0", share=False)
