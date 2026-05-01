@@ -39,7 +39,7 @@ css = """
 }
 .group-members {
     font-weight: 600;
-    color: #374151;
+    color: #6b7280;
 }
 #img-display-input, #img-display-output {
     border-radius: 12px;
@@ -113,7 +113,7 @@ with gr.Blocks(css=css, title="Semester Project") as demo:
             """
             <div class="footer">
                 <p>Project Supervisor: <b>Engr. Faheem Ul Rehman Siddiqi</b></p>
-                <p>Developed by: <span class="group-members">Ahamed Najah</span> & <span class="group-members">Abdul Rahman Al tahir</span></p>
+                <p>Developed by: <span class="group-members"> Ahamed Najah </span> & <span class="group-members"> Abdul Rahman Al tahir</span></p>
                 <p>🔍 <b><a href="https://github.com/najahaja/DepthVision-AI" target="_blank">Go to see my source code & more details</a></b></p>
                 <p>© 2026 Depth Vision AI | Semester Project Submission</p>
             </div>
