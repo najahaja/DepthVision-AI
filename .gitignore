@@ -1,0 +1,14 @@
+# Python virtual environment
+penv/
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Model checkpoints (they are downloaded automatically)
+*.pth
+*.onnx
+
+# OS files
+.DS_Store
+Thumbs.db
