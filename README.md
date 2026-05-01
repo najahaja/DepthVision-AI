@@ -1,3 +1,15 @@
+---
+title: Depth Vision AI
+emoji: 📐
+colorFrom: blue
+colorTo: indigo
+sdk: gradio
+sdk_version: 4.36.1
+app_file: app.py
+pinned: false
+license: apache-2.0
+---
+
 # Depth-Anything-V2: Monocular Depth Estimation
 
 ![Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2/raw/main/assets/teaser.png)
